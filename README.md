@@ -32,3 +32,7 @@ API do twitter proposta pelo desafio técnico da Upnid
   * mix deps.get
   * mix ecto.setup
   * mix phx.server
+  
+##Documentação da API:
+
+https://web.postman.co/collections/7801271-cd0b3e19-600f-407d-b5d9-5585772e06de?version=latest&workspace=f05cfb3a-b359-4bf1-8981-931998d203a1
