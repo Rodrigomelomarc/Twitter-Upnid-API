@@ -1,7 +1,7 @@
 Twitter-Upnid-API
 API do twitter proposta pelo desafio técnico da Upnid
 
-#Descrição Durante a resolução deste desafio, foi desenvolvida uma API em Elixir/Erlang utilizando como framework o Phoenix Framework e como banco o PostgreSQL. A autenticação na aplicação é feita por meio de JWT, implementado através da lib Guardian. Dentre as operações implementadas temos:
+##Descrição Durante a resolução deste desafio, foi desenvolvida uma API em Elixir/Erlang utilizando como framework o Phoenix Framework e como banco o PostgreSQL. A autenticação na aplicação é feita por meio de JWT, implementado através da lib Guardian. Dentre as operações implementadas temos:
 
 * Criar um usuário
 * Logar com um usuário
@@ -14,17 +14,20 @@ API do twitter proposta pelo desafio técnico da Upnid
 * Criar um retweet 
 * Mostrar um tweet e listar seus retweets
 
-#Pré-requisitos:
+##Pré-requisitos:
   * banco PostgreSQL
   * Elixir/Erlang instalados, segue link com guia oficial da instalação:
     https://elixir-lang.org/install.html 
 
-#Como rodar o projeto  
-Entrando no diretório do projeto, acessar o arquivo config/dev.exs e alterar os seguintes parametros:
+##Como rodar o projeto  
+
+#Entrando no diretório do projeto, acessar o arquivo config/dev.exs e alterar os seguintes parametros:
+
  * username: "postgres" <-- para o username do seu banco 
  * password: "development" <-- para o password do seu banco 
  * hostname: "localhost" <-- para o host do seu banco 
-Após isso, basta rodar os comandos: 
+
+#Após isso, basta rodar os comandos: 
 
   * mix deps.get
   * mix ecto.setup
